@@ -7,10 +7,10 @@
 
 
 module.exports = {
-    ctof: celcius => (celcius * 9 / 5) + 32,
-    ctok: celcius => celcius + 273.15,
-    ftoc: fahrenheit => (fahrenheit - 32) * 5 / 9,
-    ftok: fahrenheit => (fahrenheit - 32) * 5 / 9 + 273.15,
-    ktoc: kelvin => kelvin - 273.15,
-    ktof: kelvin => (kelvin - 273.15) * 9 / 5 + 32,
+    ctof: celcius => parseFloat(Number((celcius * 9 / 5) + 32).toFixed(2)),
+    ctok: celcius => parseFloat(Number(celcius + 273.15).toFixed(2)),
+    ftoc: fahrenheit => parseFloat(Number((fahrenheit - 32) * 5 / 9).toFixed(2)),
+    ftok: fahrenheit => parseFloat(Number((fahrenheit - 32) * 5 / 9 + 273.15).toFixed(2)),
+    ktoc: kelvin => parseFloat(Number(kelvin - 273.15).toFixed(2)),
+    ktof: kelvin => parseFloat(Number((kelvin - 273.15) * 9 / 5 + 32).toFixed(2)),
 };
