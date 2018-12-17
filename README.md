@@ -1,4 +1,4 @@
-# TeCon
+# TeCon [![Build Status](https://travis-ci.org/tbhaxor/tecon-js.svg?branch=master)](https://travis-ci.org/tbhaxor/tecon-js)
 
 A slim line temprature unit convertor library for nodejs
 
