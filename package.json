@@ -1,6 +1,6 @@
 {
   "name": "tecon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slim line temprature unit convertor library for nodejs",
   "main": "index.js",
   "scripts": {
