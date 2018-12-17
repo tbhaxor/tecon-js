@@ -1,7 +1,7 @@
 {
   "name": "tecon",
   "version": "1.0.0",
-  "description": "",
+  "description": "A slim line temprature unit convertor library for nodejs",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -10,9 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/tbhaxor/tecon-js.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tbhaxor",
+    "gurkirat",
+    "tecon",
+    "temprature",
+    "convertor",
+    "conversions",
+    "te con"
+  ],
+  "author": "Gurkirat Singh <tbhaxor@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tbhaxor/tecon-js/issues"
   },
