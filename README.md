@@ -35,7 +35,7 @@ console.log(conv.ctof(37)); // 98.6
 
 ## Contribution
 
-Read the rules and guidlines written in [CONTRIBUTING.md]()
+Read the rules and guidlines written in [CONTRIBUTING.md](https://github.com/tbhaxor/tecon-js/blob/master/CONTRIBUTING.md)
 
 ## License
 
